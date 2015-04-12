@@ -1,3 +1,8 @@
+/* Tabla Fahrenheit-Celsius.
+* Facundo Castellano
+* 12/04/2015
+*/
+
 #include <stdio.h>
 
 main()
