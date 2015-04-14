@@ -1,4 +1,4 @@
-/* Tabla Fahrenheit-Celsius.
+/* Tabla Celsius-Fahrenheit.
 * Facundo Castellano
 * 12/04/2015
 */
@@ -8,12 +8,12 @@
 main()
 {
 	
-	int fahr;
+	int celsius;
 	
-	/* Tabla Fahrenheit-Celsius en orden inverso*/
+	/* Tabla Celsius-Fahrenheit */
 	
-	for (fahr = 300; fahr >= 0; fahr = fahr -20)
-		printf("%3d\t %6.1f\n", fahr, (5.0/9.0)*(fahr-32));
+	for (celsius = 300; celsius >= 0; celsius = celsius -20)
+		printf("%3d\t %6.1f\n", celsius, celsius * (9.0/5.0) + 32.0);
 	
 }
 
